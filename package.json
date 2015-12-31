@@ -1,0 +1,17 @@
+{
+  "name": "exercise2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.10.0"
+  }
+}

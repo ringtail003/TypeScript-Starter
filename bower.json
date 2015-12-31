@@ -1,0 +1,21 @@
+{
+  "name": "exercise2",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "ringtail003 <ringtail003@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4"
+  }
+}
