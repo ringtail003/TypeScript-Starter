@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "amd",
+    "target": "es5",
+    "removeComments": true
+  }
+}

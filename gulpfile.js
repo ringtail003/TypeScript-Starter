@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var typescript = require('gulp-typescript');
 var browserSync = require('browser-sync').create();
 var del = require('del');
+var config = require('./tsconfig.json');
 
 gulp.task('clean:dist', function(){
   return del.sync(['dist/*']);
@@ -9,7 +10,7 @@ gulp.task('clean:dist', function(){
 
 gulp.task('compile:ts', function(){
   return gulp.src(['src/ts/*.ts'])
-    .pipe(typescript())
+    .pipe(typescript(config.compilerOptions))
     .js
     .pipe(gulp.dest('dist/js/'));
 });
